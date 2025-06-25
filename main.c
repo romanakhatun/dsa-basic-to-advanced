@@ -285,6 +285,149 @@ int main(void) {
   }
 
   */
+   
+  ///second time review
+   /*
+    int eng_marks;
+    int math_marks;
+    
+    printf("English and Math Marks: ");
+    scanf("%d %d", &eng_marks, &math_marks);
+
+    int total_marks = eng_marks + math_marks;
+    printf("Total marks: %d", total_marks);
+    */
+   
+   /*
+    double num1, num2;
+    printf("Input two number: ");
+    scanf("%lf %lf", &num1, &num2);
+
+    double jogfol = num1 + num2;
+    printf("%lf + %lf = %lf\n", num1, num2, jogfol);
+
+    double biyogfol = num1 - num2;
+    printf("%lf - %lf = %lf\n", num1, num2, biyogfol);
+
+    double vagfol = num1 / num2;
+    printf("%lf / %lf = %lf\n", num1, num2, vagfol);
+
+   // int vagsesh = num1 % num2;
+   // printf("%d %% %d = %", num1, num2, vagsesh);
+
+   */
+
+    // double realNum = 10.5;
+    // printf("%d", (int)realNum); 
+
+    /*
+    int num1, num2;
+    scanf("%d %d", &num1, &num2);
+
+    double vagfol = (double)num1 / (double)num2;
+    printf("%d / %d = %lf", num1, num2, vagfol);
+    */
+
+
+    /**
+    double radius;
+    scanf("%lf", &radius);
+    const double PI = 3.1416;
+    double perimeter = 2 * PI * radius;
+    double area = PI* radius * radius;
+
+    printf("Perimeter = %.2lf\n Area = %.2lf", perimeter, area);
+    
+    */
+
+    /*
+    // problem 1
+    int height, width;
+    printf("Enter height of rectangle: ");
+    scanf("%d", &height);
+
+    printf("Enter width of rectangle: ");
+    scanf("%d", &width);
+
+    int perimeter = 2 * (height+ width);
+    int area = height*width;
+    printf("Perimeter:%d\t Area:%d", perimeter, area);
+    */
+    
+    /*
+    // prblem 2
+    int inch;
+    printf("Enter height is inches:");
+    scanf("%d", &inch);
+
+    int feet = inch / 12;
+    int feet_vagsesh = inch % 12;
+    printf("Your height is %d Feet %d", feet, feet_vagsesh);
+    */
+
+    /*
+    int a, b;
+    scanf("%d %d", &a, &b);
+    printf("%d", a+b);
+    */
+
+    /*
+    int num1, num2;
+    float num3, num4;
+
+    scanf("%d %d", &num1, &num2);
+    scanf("%f %f", &num3, &num4);
+
+    printf("%d %d\n", num1+num2, num1-num2);
+    printf("%.1f %.1f", num3+num4, num3-num4 );
+    */
+
+    /**
+    int days;
+    printf("Input no. of days:");
+    scanf("%d", &days);
+
+    int year = days / 365;
+    int remaining_days = days % 365;
+
+    int month = remaining_days / 30;
+    int days = remaining_days % 30;
+
+    printf("%d Year(s)\n", year);
+    printf("%d Month(s)\n", month);
+    printf("%d Days(s)", days);
+    */
+
+    /*
+     int a, b, h;
+    scanf("%d", &a);
+    scanf("%d", &b);
+    scanf("%d", &h);
+    
+    int areaOfTrapezoid = ((a+b) * h) / 2 ;
+    printf("%d", areaOfTrapezoid);
+    */
+    /*
+    int abul_age, avg_age;
+    scanf("%d %d", &abul_age, &avg_age);
+
+    int babul_age = ((avg_age * 2) - abul_age);
+    printf("%d", babul_age);
+    */
+
+    /*
+     int row, column, painted_row , painted_column;
+    scanf("%d %d", &row, &column);
+    scanf("%d %d", &painted_row, &painted_column);
+
+    int total_cell = row * column;
+    int row_colored = column * painted_row;
+    int colmn_colored = row * painted_column;
+    int double_counted = painted_column * painted_row;
+    int colored = (row_colored+colmn_colored) - double_counted;
+    int uncoloured = total_cell - colored;
+    printf("%d", uncoloured);
+    */
 
   return 0;
 }
